@@ -136,52 +136,50 @@
 
   <span class="js-widget-page d-none"></span>
 
-  <section id="home" class="home-section wg-about   " style="padding: 30px 0 20px 0;">
+  <section id="home" class="home-section wg-about" style="padding: 30px 0 20px 0;">
     <div class="container">
-
+  
       <div class="row">
+        <!-- 왼쪽: 프로필 이미지 및 링크 -->
         <div class="col-12 col-lg-4">
           <div id="profile">
             <img class="avatar avatar-circle" src="/resources/230709.jpg" alt="Avatar">
             <div class="portrait-title">
               <h2>Jumin Lee</h2>
               <h3>Ph.D. Candidate</h3>
-
               <h3>
                 <a href="https://cs.kaist.ac.kr/" target="_blank" rel="noopener">
                   <span>School of Computing, KAIST</span>
                 </a>
               </h3>
             </div>
-
-
+  
             <td>
               <br>
-              <a href="resources/CV.pdf"><b>CV</b></a>
-              | <a href="https://scholar.google.com/citations?user=Rn3DAfYAAAAJ&hl=en"><b>Google Scholar</b></a>
+              <a href="https://scholar.google.com/citations?user=Rn3DAfYAAAAJ&hl=en"><b>Google Scholar</b></a>
               | <a href="https://github.com/zoomin-lee"><b>GitHub</b></a>
-              <br>
-              <br>
+              <br><br>
             </td>
           </div>
         </div>
+  
+        <!-- 오른쪽: 소개 + Contact/Intern/Education -->
         <div class="col-12 col-lg-8">
-
-
           <br>
-
           <p>
             I am a Ph.D. candidate in <a href="https://sgvr.kaist.ac.kr">Scalable Graphics, Vision, and Robotics (SGVR) Lab</a> 
             at KAIST advised by Prof. <a href="https://sgvr.kaist.ac.kr/~sungeui/">Sung-Eui Yoon</a>.
             I received my M.S. degree in Artificial Intelligence from KAIST 
             and received my B.S. degree in Artificial Intelligence and Mechanical Engineering from SungKyunKwan University in 2022.
-            My research lies at the intersection of 3D vision and computer vision, with a particular interest in generating 3D scenes using diffusion models. 
+            My research lies at the intersection of 3D vision and computer vision, with a particular interest in generating 3D scenes. 
             This work aims to generate realistic 3D scenes, which can be utilized in various applications such as autonomous driving and virtual simulations.
             Building on my current work, I aim to develop models that not only generate 3D scenes with temporal consistency but also function as world models. 
           </p>
+  
+          <!-- 2열 구성: 왼쪽에 Contact+Internship, 오른쪽에 Education -->
           <div class="row">
-
-            <div class="col-md-5">
+            <!-- 왼쪽 열 -->
+            <div class="col-12 col-md-6">
               <h3>Contact</h3>
               <ul class="ul-contact fa-ul">
                 <li>
@@ -190,16 +188,22 @@
                     <p class="course">jmlee [at] kaist.ac.kr</p>
                   </div>
                 </li>
+              </ul>
+  
+              <h3>Internship Experience</h3>
+              <ul class="ul-edu fa-ul">
                 <li>
-                  <i class="fa-li fas fa-map-marker"></i>
+                  <i class="fa-li fas fa-briefcase"></i>
                   <div class="description">
-                    <p class="course">Bldg E3-1, Rm 3443, 291 Daehak-ro, Yuseong-gu, Daejeon, Korea, 34141</p>
+                    <p class="course">Research Intern, Robot Vision & Learning Team, <a href="https://www.naverlabs.com/en/contact">NAVER Labs</a></p>
+                    <p class="institution">Nov. 2024 – May. 2025</p>
                   </div>
                 </li>
               </ul>
             </div>
-
-            <div class="col-md-7">
+  
+            <!-- 오른쪽 열 -->
+            <div class="col-12 col-md-6">
               <h3>Education</h3>
               <ul class="ul-edu fa-ul">
                 <li>
@@ -227,12 +231,12 @@
                 </li>
               </ul>
             </div>
-          </div>
-        </div>
-      </div>
-
-    </div>
+          </div> <!-- row end -->
+        </div> <!-- col-lg-8 end -->
+      </div> <!-- row end -->
+    </div> <!-- container end -->
   </section>
+  
 
 
   <section id="news" class="home-section wg-papers   " style="padding: 20px 0 20px 0;">
@@ -242,6 +246,7 @@
         <div class="col-lg-12">
           <h1>News</h1>
           <ul>
+            <li>[Jul 2024] One paper is accepted to ICIP 2025.</li>
             <li>[Jun 2024] One paper is accepted to ECCV 2024.</li>
             <li>[Jun 2024] I received a Ph.D fellowship from NRF(National Research Foundation) of Korea.</li>
             <li>[Jun 2024] One paper is accepted to ICIP 2024.</li>
@@ -264,6 +269,18 @@
         </div>
         <div class="row">
           <ul class="ul-papers">
+            <li>
+              <div class="img">
+                <img src="/resources/paper/ICIP25.png" class="img-responsive" alt="">
+              </div>
+              <div class="description">
+                <p class="title">SHARE: Bridging Shape And Ray Estimation for Pose-Free Generalizable Gaussian Splatting</p>
+                <p class="authors"> Youngju Na*, Taeyeon Kim*, <b>Jumin Lee</b>, Kyu Beom Han, Woo Jae Kim, and Sung-eui Yoon<br /></p>
+                <p class="venue">ICIP 2025 <br>
+                
+              </div>
+            </li>
+
             <li>
               <div class="img">
                 <img src="/resources/paper/ECCV24.png" class="img-responsive" alt="">
