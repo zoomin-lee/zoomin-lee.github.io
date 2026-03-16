@@ -140,7 +140,6 @@
     <div class="container">
   
       <div class="row">
-        <!-- 왼쪽: 프로필 이미지 및 링크 -->
         <div class="col-12 col-lg-4">
           <div id="profile">
             <img class="avatar avatar-circle" src="/resources/230709.jpg" alt="Avatar">
@@ -163,7 +162,6 @@
           </div>
         </div>
   
-        <!-- 오른쪽: 소개 + Contact/Intern/Education -->
         <div class="col-12 col-lg-8">
           <br>
           <p>
@@ -171,14 +169,12 @@
             at KAIST advised by Prof. <a href="https://sgvr.kaist.ac.kr/~sungeui/">Sung-Eui Yoon</a>.
             I received my M.S. degree in Artificial Intelligence from KAIST 
             and received my B.S. degree in Artificial Intelligence and Mechanical Engineering from SungKyunKwan University in 2022.
-            My research lies at the intersection of 3D vision and computer vision, with a particular interest in generating 3D scenes. 
-            This work aims to generate realistic 3D scenes, which can be utilized in various applications such as autonomous driving and virtual simulations.
-            Building on my current work, I aim to develop models that not only generate 3D scenes with temporal consistency but also function as world models. 
+            My research lies at the intersection of 3D vision and embodied intelligence, with a particular interest in world models for autonomous driving and robotics.
+            Building on my current work, I aim to develop models that can understand and predict the 3D structure of dynamic environments, 
+            enabling autonomous agents to reason about the physical world and act within it.
           </p>
   
-          <!-- 2열 구성: 왼쪽에 Contact+Internship, 오른쪽에 Education -->
           <div class="row">
-            <!-- 왼쪽 열 -->
             <div class="col-12 col-md-6">
               <h3>Contact</h3>
               <ul class="ul-contact fa-ul">
@@ -208,7 +204,6 @@
               </ul>
             </div>
   
-            <!-- 오른쪽 열 -->
             <div class="col-12 col-md-6">
               <h3>Education</h3>
               <ul class="ul-edu fa-ul">
@@ -252,7 +247,8 @@
         <div class="col-lg-12">
           <h1>News</h1>
           <ul>
-            <li>[May 2025] One paper is accepted to ICIP 2025 as student best paper.</li>
+            <li>[Mar 2024] One paper is accepted to CVPR 2026.</li>
+            <li>[May 2025] One paper is accepted to ICIP 2025 as a best student paper.</li>
             <li>[Jun 2024] One paper is accepted to ECCV 2024.</li>
             <li>[Jun 2024] I received a Ph.D fellowship from NRF(National Research Foundation) of Korea.</li>
             <li>[Jun 2024] One paper is accepted to ICIP 2024.</li>
@@ -277,12 +273,36 @@
           <ul class="ul-papers">
             <li>
               <div class="img">
+                <img src="/resources/paper/26.png" class="img-responsive" alt="">
+              </div>
+              <div class="description">
+                <p class="title">VERIA: Verification-Centric Multimodal Instance Augmentation for Long-Tailed 3D Object Detection</p>
+                <p class="authors"><b>Jumin Lee</b>, Siyeong Lee, Namil Kim and Sung-Eui Yoon<br /></p>
+              </div>
+            </li>
+
+            <li>
+              <div class="img">
+                <img src="/resources/paper/CVPR26.png" class="img-responsive" alt="">
+              </div>
+              <div class="description">
+                <p class="title">visual-RRT: Finding Paths toward Visual-Goals via Differentiable Rendering </p>
+                <p class="authors">Sebin Lee*, <b>Jumin Lee</b>*, Taeyeon Kim, Woobin Im, Youngju Na and Sung-Eui Yoon<br /></p>
+                <p class="venue">Computer Vision and Pattern Recognition (CVPR) 2026 <br></p>
+              </div>
+            </li>
+
+            <li>
+              <div class="img">
                 <img src="/resources/paper/ICIP25.png" class="img-responsive" alt="">
               </div>
               <div class="description">
                 <p class="title">Pose-free 3D Gaussian splatting via shape-ray estimation</p>
                 <p class="authors"> Youngju Na*, Taeyeon Kim*, <b>Jumin Lee</b>, Kyu Beom Han, Woo Jae Kim, and Sung-eui Yoon<br /></p>
-                <p class="venue">ICIP 2025 <a style="color:red">Best Student Paper Award</a> <br>
+                <p class="venue">International Conference in Image Processing (ICIP) 2025 <br></p>
+                <p class="resources">
+                  <a style="color:red">Best Student Paper Award</a> 
+                </p>                
                 <p class="resources">
                   <a href="https://arxiv.org/abs/2505.22978">[Paper]</a> <a
                   href="https://github.com/youngju-na/SHARE">[Code]</a>
@@ -297,9 +317,9 @@
               <div class="description">
                 <p class="title">Regularizing Dynamic Radiance Fields with Kinematic Fields</p>
                 <p class="authors"> Woobin Im, Geonho Cha, Sebin Lee, <b>Jumin Lee</b>, Juhyeong Seon, Dongyoon Wee, and Sung-Eui Yoon<br /></p>
-                <p class="venue">ECCV 2024 <br>
+                <p class="venue">European Conference on Computer Vision (ECCV) 2024 <br></p>
                 <p class="resources">
-                  <a href="https://arxiv.org/abs/2505.22978">[Paper]</a> <a
+                  <a href="https://arxiv.org/abs/2407.14059">[Paper]</a> <a
                   href="https://github.com/iwbn/kinematic-fields/">[Code]</a>
                 </p>
               </div>
@@ -310,9 +330,9 @@
                 <img src="/resources/paper/ICIP24.png" class="img-responsive" alt="">
               </div>
               <div class="description">
-                <p class="title">Extending Segment Anything Model into Auditory and Temporal Dimensions for Audio-Visual Segmentation  </p>
+                <p class="title">Extending SAM into Auditory and Temporal Dimensions for Audio-Visual Segmentation  </p>
                 <p class="authors">Juhyeong Seon, Woobin Im, Sebin Lee, <b>Jumin Lee</b>, and Sung-Eui Yoon<br /></p>
-                <p class="venue">ICIP 2024 <br>
+                <p class="venue">International Conference in Image Processing (ICIP) 2024 <br></p>
                 <p class="resources">
                   <a href="https://arxiv.org/abs/2406.06163">[Paper]</a>  <a
                   href="https://github.com/Sunjuhyeong/SAM_STBAVA">[Code]</a>
@@ -327,7 +347,7 @@
               <div class="description">
                 <p class="title">SemCity: Semantic Scene Generation with Triplane Diffusion</p>
                 <p class="authors"><b>Jumin Lee</b>*, Sebin Lee*, Changho Jo, Woobin Im, Juhyeong Seon, and Sung-Eui Yoon<br /></p>
-                <p class="venue">CVPR 2024 <br>
+                <p class="venue">Computer Vision and Pattern Recognition (CVPR) 2024 <br></p>
                 <p class="resources">
                   <a href="https://arxiv.org/abs/2403.07773">[Paper]</a> <a
                     href="https://github.com/zoomin-lee/SemCity">[Code]</a> <a
@@ -343,7 +363,10 @@
               <div class="description">
                 <p class="title">Diffusion Probabilistic Models for Scene-Scale 3D Categorical Data </p>
                 <p class="authors"><b>Jumin Lee</b>, Woobin Im, Sebin Lee, and Sung-Eui Yoon<br /></p>
-                <p class="venue">IPIU 2023 <a style="color:red">Oral paper</a> <br>
+                <p class="venue">Image Processing and Image Understanding (IPIU) 2023 <br></p>
+                <p class="resources">
+                    <a style="color:red">Oral paper</a> 
+                </p>
                 <p class="resources">
                   <a href="https://arxiv.org/abs/2301.00527">[Paper]</a> <a
                     href="https://github.com/zoomin-lee/scene-scale-diffusion">[Code]</a>
