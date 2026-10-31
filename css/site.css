@@ -161,7 +161,7 @@ ul.ul-papers li .description p.title {
   letter-spacing: -.02em;
 }
 ul.ul-papers li .description p.authors { color: #5a6880; font-size: .92rem; }
-ul.ul-papers li .description p.venue { color: var(--accent); font-size: .9rem; font-weight: 650; }
+ul.ul-papers li .description p.venue { color: #52647f; font-size: .9rem; font-weight: 650; }
 ul.ul-papers li .description p.resources,
 ul.ul-papers li .description p.paper-highlights { display: flex; flex-wrap: wrap; align-items: center; gap: .45rem; margin-top: .65rem; }
 ul.ul-papers li .description p.resources { gap: 1.05rem; }
