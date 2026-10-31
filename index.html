@@ -9,7 +9,7 @@
   <meta name="generator" content="Source Themes Academic 4.7.0">
 
   <meta name="author" content="Jumin Lee">
-  <meta name="description" content="Ph.D.">
+  <meta name="description" content="Jumin Lee is a Ph.D. candidate at KAIST researching generative models, 3D scene understanding, and action generation for robotics and autonomous driving.">
   <link rel="alternate" hreflang="en-us" href="/">
   <meta name="theme-color" content="#2962ff">
 
@@ -28,6 +28,7 @@
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
   <link rel="stylesheet" href="/css/academic.css">
+  <link rel="stylesheet" href="/css/site.css">
   <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Jumin Lee">
   <link rel="manifest" href="/index.webmanifest">
 
@@ -36,7 +37,7 @@
   <meta property="og:site_name" content="Jumin Lee- KAIST">
   <meta property="og:url" content="/">
   <meta property="og:title" content="Jumin Lee - KAIST">
-  <meta property="og:description" content="Ph.D. Candidate in KAIST CS">
+  <meta property="og:description" content="Jumin Lee is a Ph.D. candidate at KAIST researching generative models, 3D scene understanding, and action generation for robotics and autonomous driving.">
   <meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:circle]">
   <meta property="twitter:image" content="img/map[gravatar:%!s(bool=false) shape:circle]">
   <meta property="og:locale" content="en-us">
@@ -111,6 +112,10 @@
           </li>
 
           <li class="nav-item">
+            <a class="nav-link" href="/#news" data-target="#news"><span>News</span></a>
+          </li>
+
+          <li class="nav-item">
             <a class="nav-link " href="/#papers" data-target="#papers"><span>Publications</span></a>
           </li>
 
@@ -122,13 +127,6 @@
         </ul>
       </div>
 
-      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
-
-        <li class="nav-item">
-          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
-        </li>
-
-      </ul>
 
     </div>
   </nav>
@@ -136,7 +134,7 @@
 
   <span class="js-widget-page d-none"></span>
 
-  <section id="home" class="home-section wg-about" style="padding: 30px 0 20px 0;">
+  <section id="home" class="home-section wg-about">
     <div class="container">
   
       <div class="row">
@@ -153,23 +151,24 @@
               </h3>
             </div>
   
-            <td>
-              <br>
-              <a href="https://scholar.google.com/citations?user=Rn3DAfYAAAAJ&hl=en"><b>Google Scholar</b></a>
-              | <a href="https://github.com/zoomin-lee"><b>GitHub</b></a>
-              <br><br>
-            </td>
+            <div class="profile-links">
+              <a href="https://scholar.google.com/citations?user=wwVppiUAAAAJ&amp;hl=en"><i class="ai ai-google-scholar" aria-hidden="true"></i> Google Scholar</a>
+              <a href="https://github.com/zoomin-lee"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a>
+            </div>
           </div>
         </div>
   
         <div class="col-12 col-lg-8">
           <br>
           <p>
-            I am a Ph.D. candidate in <a href="https://sgvr.kaist.ac.kr">Scalable Graphics, Vision, and Robotics (SGVR) Lab</a> 
-            at KAIST advised by Prof. <a href="https://sgvr.kaist.ac.kr/~sungeui/">Sung-Eui Yoon</a>.
-            My research focuses on generative AI for Physical AI, particularly in 3D scene understanding and action generation. 
-            I am broadly interested in developing models for autonomous driving and robotics that can understand and reconstruct dynamic 3D environments, 
-            enabling more reliable reasoning and interaction in the physical world.
+            I am a Ph.D. candidate in the <a href="https://cs.kaist.ac.kr/">School of Computing at KAIST</a>,
+            advised by Prof. <a href="https://sgvr.kaist.ac.kr/~sungeui/">Sung-Eui Yoon</a> in the
+            <a href="https://sgvr.kaist.ac.kr">Scalable Graphics, Vision, and Robotics (SGVR) Lab</a>.
+          </p>
+          <p>
+            My research connects generative modeling, 3D scene understanding, and action generation for physical AI.
+            I develop methods to understand, reconstruct, and generate 3D environments, with applications in robotics and autonomous driving.
+            My broader goal is to build intelligent systems that can reason about dynamic environments and act reliably in the physical world.
           </p>
   
           <div class="row">
@@ -238,13 +237,14 @@
   
 
 
-  <section id="news" class="home-section wg-papers   " style="padding: 20px 0 20px 0;">
+  <section id="news" class="home-section wg-papers">
     <div class="container">
 
       <div class="row">
         <div class="col-lg-12">
           <h1>News</h1>
           <ul>
+            <li>[Nov 2026] Visual-RRT has been selected as a finalist for the Qualcomm Innovation Fellowship 2026</a>.</li>
             <li>[Jun 2026] Two papers are accepted to ECCV 2026.</li>
             <li>[Mar 2026] One paper is accepted to CVPR 2026 as a highlight paper.</li>
             <li>[May 2025] One paper is accepted to ICIP 2025 as a best student paper.</li>
@@ -260,7 +260,7 @@
   </section>
 
 
-  <section id="papers" class="home-section wg-blank   " style="padding: 20px 0 20px 0;">
+  <section id="papers" class="home-section wg-blank">
     <div class="container">
 
       <div class="row">
@@ -280,9 +280,9 @@
                 <p class="authors">Jinhwan Seo, Kyu Beom Han, <b>Jumin Lee</b>, Junhyug Noh and Sung-eui Yoon<br /></p>
                 <p class="venue">European Conference on Computer Vision (ECCV) 2026 <br></p>
                 <p class="resources">
-                  <a href="https://arxiv.org/abs/2608.15708v1">[Paper]</a> <a
-                    href="https://github.com/jinhseo/GroundFormer">[Code]</a> <a
-                    href="https://jinhseo.github.io/groundformer/groundformer.html">[Project]</a>
+                  <a href="https://arxiv.org/abs/2608.15708v1">Paper</a> <a
+                    href="https://github.com/jinhseo/GroundFormer">Code</a> <a
+                    href="https://jinhseo.github.io/groundformer/groundformer.html">Project</a>
                 </p>
               </div>
             </li>
@@ -296,9 +296,9 @@
                 <p class="authors">Taeyeon Kim*, Youngju Na*, <b>Jumin Lee</b>, Sebin Lee, Minhyuk Sung and Sung-Eui Yoon<br /></p>
                 <p class="venue">European Conference on Computer Vision (ECCV) 2026 <br></p>
                 <p class="resources">
-                  <a href="https://arxiv.org/abs/2601.02716">[Paper]</a> <a
-                    href="https://github.com/xodus777/MorphGS">[Code]</a> <a
-                    href="https://xodus777.github.io/MorphGS/">[Project]</a>
+                  <a href="https://arxiv.org/abs/2601.02716">Paper</a> <a
+                    href="https://github.com/xodus777/MorphGS">Code</a> <a
+                    href="https://xodus777.github.io/MorphGS/">Project</a>
                 </p>
               </div>
             </li>
@@ -312,8 +312,8 @@
                 <p class="title">VERIA: Verification-Centric Multimodal Instance Augmentation for Long-Tailed 3D Object Detection</p>
                 <p class="authors"><b>Jumin Lee</b>, Siyeong Lee, Namil Kim and Sung-Eui Yoon<br /></p>
                 <p class="resources">
-                  <a href="http://arxiv.org/abs/2603.24294">[Paper]</a> <a
-                    href="https://sgvr.kaist.ac.kr/VERIA">[Project]</a>
+                  <a href="http://arxiv.org/abs/2603.24294">Paper</a> <a
+                    href="https://sgvr.kaist.ac.kr/VERIA">Project</a>
                 </p>
               </div>
             </li>
@@ -326,12 +326,13 @@
                 <p class="title">Visual-RRT: Finding Paths toward Visual-Goals via Differentiable Rendering </p>
                 <p class="authors">Sebin Lee*, <b>Jumin Lee</b>*, Taeyeon Kim, Woobin Im, Youngju Na and Sung-Eui Yoon<br /></p>
                 <p class="venue">Computer Vision and Pattern Recognition (CVPR) 2026 <br></p>
-                <p class="resources">
-                    <a style="color:red">Highlight paper</a> 
+                <p class="paper-highlights">
+                  <span class="paper-badge paper-badge-highlight">Highlight Paper</span>
+                  <a class="paper-badge paper-badge-award" href="https://www.qualcomm.com/research/university-relations/innovation-fellowship/2026-south-korea">Qualcomm Innovation Fellowship Korea 2026 Finalist <span aria-hidden="true">↗</span></a>
                 </p>
                 <p class="resources">
-                  <a href="https://arxiv.org/abs/2604.16388">[Paper]</a> <a
-                    href="https://sgvr.kaist.ac.kr/Visual-RRT">[Project]</a>
+                  <a href="https://arxiv.org/abs/2604.16388">Paper</a> <a
+                    href="https://sgvr.kaist.ac.kr/Visual-RRT">Project</a>
                 </p>
               </div>
             </li>
@@ -344,12 +345,12 @@
                 <p class="title">Pose-free 3D Gaussian splatting via shape-ray estimation</p>
                 <p class="authors"> Youngju Na*, Taeyeon Kim*, <b>Jumin Lee</b>, Kyu Beom Han, Woo Jae Kim, and Sung-eui Yoon<br /></p>
                 <p class="venue">International Conference in Image Processing (ICIP) 2025 <br></p>
-                <p class="resources">
-                  <a style="color:red">Best Student Paper Award</a> 
+                <p class="paper-highlights">
+                  <span class="paper-badge paper-badge-award">Best Student Paper Award</span>
                 </p>                
                 <p class="resources">
-                  <a href="https://arxiv.org/abs/2505.22978">[Paper]</a> <a
-                  href="https://github.com/youngju-na/SHARE">[Code]</a>
+                  <a href="https://arxiv.org/abs/2505.22978">Paper</a> <a
+                  href="https://github.com/youngju-na/SHARE">Code</a>
                 </p>
               </div>
             </li>
@@ -363,8 +364,8 @@
                 <p class="authors"> Woobin Im, Geonho Cha, Sebin Lee, <b>Jumin Lee</b>, Juhyeong Seon, Dongyoon Wee, and Sung-Eui Yoon<br /></p>
                 <p class="venue">European Conference on Computer Vision (ECCV) 2024 <br></p>
                 <p class="resources">
-                  <a href="https://arxiv.org/abs/2407.14059">[Paper]</a> <a
-                  href="https://github.com/iwbn/kinematic-fields/">[Code]</a>
+                  <a href="https://arxiv.org/abs/2407.14059">Paper</a> <a
+                  href="https://github.com/iwbn/kinematic-fields/">Code</a>
                 </p>
               </div>
             </li>
@@ -378,8 +379,8 @@
                 <p class="authors">Juhyeong Seon, Woobin Im, Sebin Lee, <b>Jumin Lee</b>, and Sung-Eui Yoon<br /></p>
                 <p class="venue">International Conference in Image Processing (ICIP) 2024 <br></p>
                 <p class="resources">
-                  <a href="https://arxiv.org/abs/2406.06163">[Paper]</a>  <a
-                  href="https://github.com/Sunjuhyeong/SAM_STBAVA">[Code]</a>
+                  <a href="https://arxiv.org/abs/2406.06163">Paper</a>  <a
+                  href="https://github.com/Sunjuhyeong/SAM_STBAVA">Code</a>
                 </p>
               </div>
             </li>
@@ -393,9 +394,9 @@
                 <p class="authors"><b>Jumin Lee</b>*, Sebin Lee*, Changho Jo, Woobin Im, Juhyeong Seon, and Sung-Eui Yoon<br /></p>
                 <p class="venue">Computer Vision and Pattern Recognition (CVPR) 2024 <br></p>
                 <p class="resources">
-                  <a href="https://arxiv.org/abs/2403.07773">[Paper]</a> <a
-                    href="https://github.com/zoomin-lee/SemCity">[Code]</a> <a
-                    href="https://sgvr.kaist.ac.kr/SemCity">[Project]</a>
+                  <a href="https://arxiv.org/abs/2403.07773">Paper</a> <a
+                    href="https://github.com/zoomin-lee/SemCity">Code</a> <a
+                    href="https://sgvr.kaist.ac.kr/SemCity">Project</a>
                 </p>
               </div>
             </li>
@@ -408,12 +409,12 @@
                 <p class="title">Diffusion Probabilistic Models for Scene-Scale 3D Categorical Data </p>
                 <p class="authors"><b>Jumin Lee</b>, Woobin Im, Sebin Lee, and Sung-Eui Yoon<br /></p>
                 <p class="venue">Image Processing and Image Understanding (IPIU) 2023 <br></p>
-                <p class="resources">
-                    <a style="color:red">Oral paper</a> 
+                <p class="paper-highlights">
+                  <span class="paper-badge">Oral Paper</span>
                 </p>
                 <p class="resources">
-                  <a href="https://arxiv.org/abs/2301.00527">[Paper]</a> <a
-                    href="https://github.com/zoomin-lee/scene-scale-diffusion">[Code]</a>
+                  <a href="https://arxiv.org/abs/2301.00527">Paper</a> <a
+                    href="https://github.com/zoomin-lee/scene-scale-diffusion">Code</a>
                 </p>
               </div>
             </li>
@@ -422,16 +423,17 @@
       </div>
     </div>
   </section>
-  <section id="awards" class="home-section wg-papers   " style="padding: 20px 0 20px 0;">
+  <section id="awards" class="home-section wg-papers">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
           <h1>Awards &amp; Honors</h1>
           <ul>
-            <li style="line-height:150%"><b>Grand Prize Award</b>, 35th Workshop on Image Processing and Image Understanding (IPIU), 2023</li>
-            <li style="line-height:150%"><b>SemCity</b>, presented at Korean Conference on Computer Vision (KCCV), 2024</li>
-            <li style="line-height:150%"><b>Winner, NRF Ph.D. Fellowship</b>, National Research Foundation of Korea, 2024</li>
-            <li style="line-height:150%"><b>Visual-RRT</b>, presented at Korean Conference on Computer Vision (KCCV), 2026</li>
+            <li><b>Finalist, Qualcomm Innovation Fellowship Korea</a></b>, Visual-RRT, 2026</li>
+            <li><b>Visual-RRT</b>, presented at Korean Conference on Computer Vision (KCCV), 2026</li>
+            <li><b>Winner, NRF Ph.D. Fellowship</b>, National Research Foundation of Korea, 2024</li>
+            <li><b>SemCity</b>, presented at Korean Conference on Computer Vision (KCCV), 2024</li>
+            <li><b>Grand Prize Award</b>, 35th Workshop on Image Processing and Image Understanding (IPIU), 2023</li>
           </ul>
         </div>
       </div>
